@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #8d3232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    
+}
+
+.container {
+    background: #e1a0715f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3e3e2de9;
+    text-shadow: 10px 0 20px rgba(84, 73, 73, 0.1);
+
+}
+
+.scoreboard {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.scoreboard span {
+    color: #3e3e2de9;
+    text-shadow: 10px 0 20px rgba(84, 73, 73, 0.1);
+    
+
+}
+
+.game-board table {
+    margin: 100px auto;
+    border: 1px solid #442c2c;
+    border-block-color: #442c2c;
+
+}
+
+.game-board td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    border: 1px solid #905c5c;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    background-color: transparent;
+    border: 1px solid #a25c5c;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    background-color: #8b4c4c;
+    color: #d6c9c9;
+
+}
